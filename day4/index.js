@@ -1,3 +1,3 @@
-const randomstring = require("randomstring")
+const greet = require("./myModule")
 
-console.log(randomstring.generate())
+console.log(greet.greet("fak"))
