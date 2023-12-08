@@ -1,13 +1,13 @@
 yang dikerjakan hari ini
-- learning readfile
+- OOP
 - task
 
 apa yang di kerjakan besok?
-- oop
-
+- HTML
+- CSS
 
 apa kendala yang dihadapi?
-- logic
+- logic 
 
 saran improvement
 - tidak ada
