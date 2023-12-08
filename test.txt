@@ -1,13 +1,13 @@
 yang dikerjakan hari ini
-- coding
--
+- learning readfile
+- task
 
 apa yang di kerjakan besok?
-- 
+- oop
 
 
 apa kendala yang dihadapi?
-- 
+- logic
 
 saran improvement
-- 
+- tidak ada
