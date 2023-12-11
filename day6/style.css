@@ -1,0 +1,53 @@
+.container {
+  border: 1px solid black;
+  height: fit-content;
+  margin: auto;
+  width: 40%;
+  height: 25em;
+  padding: 10px;
+  margin-top: 10em;
+  border-radius: 10px;
+  /* display: flex; */
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.divIn {
+  margin: auto;
+  height: 35px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divIn input {
+  width: 60%;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.buttonCal {
+}
+
+.inputNumber {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.inputNumber input {
+  width: 68px;
+  height: 50px;
+  background-color: pink;
+}
