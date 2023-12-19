@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "publishedYear": 1960,
+      "description": "To Kill a Mockingbird is a novel by Harper Lee. It follows the story of a young girl, Scout Finch, and her brother Jem, as their father, Atticus Finch, defends a black man accused of raping a white woman in the racially divided town of Maycomb, Alabama.",
+      "coverImage": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian Fiction",
+      "publishedYear": 1949,
+      "description": "1984 is a dystopian novel by George Orwell. It is set in the year 1984 when most of the world's population lives under the control of omnipresent government surveillance and public manipulation.",
+      "coverImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/103/MTA-128915419/no-brand_no-brand_full01.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "publishedYear": 1925,
+      "description": "The Great Gatsby is a novel by F. Scott Fitzgerald. Set in the summer of 1922, the story explores themes of decadence, idealism, and the American Dream.",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "publishedYear": 1997,
+      "description": "Harry Potter and the Sorcerer's Stone is the first book in the Harry Potter series. It follows the story of a young wizard, Harry Potter, as he discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry.",
+      "coverImage": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg"
+    }
+  ]
+}
