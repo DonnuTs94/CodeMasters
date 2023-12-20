@@ -24,7 +24,10 @@ const Books = () => {
       <div className="text-center text-4xl mt-8">Book List</div>
       <div className="grid grid-cols-2 gap-4 mt-12">
         {books?.map((book) => (
-          <div key={book.id} className="border-2 border-sky-500 p-4">
+          <div
+            key={book.id}
+            className="border-2 border-sky-500 p-4 rounded-md shadow-lg"
+          >
             <Link to={`/books/${book.id}`}>
               <img
                 src={book.coverImage}

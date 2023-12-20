@@ -1,14 +1,9 @@
 /* eslint-disable no-unused-vars */
-import { useState, useEffect } from "react"
 import Navbar from "./components/Navbar"
-import RouteReactBasic from "./routes"
+import { Outlet } from "react-router-dom"
 
 function App() {
-  return (
-    <>
-      <RouteReactBasic />
-    </>
-  )
+  return <></>
 }
 
 export default App
