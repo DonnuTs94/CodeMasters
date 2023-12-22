@@ -3,6 +3,7 @@ import Increment from "./pages/Increment"
 import Home from "./pages/Home"
 import Auth from "./pages/Auth"
 import Register from "./pages/Register"
+import TodoList from "./pages/TodoList"
 
 const ProjectRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const ProjectRoutes = () => {
           <Route path="/increment" element={<Increment />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/signup" element={<Register />} />
+          <Route path="/todo" element={<TodoList />} />
         </Routes>
       </main>
     </>

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Button from "../Components/Button"
 
 const Increment = () => {
@@ -19,6 +19,8 @@ const Increment = () => {
       setCounter(0)
     }
   }
+
+  useEffect(() => {}, [])
   return (
     <>
       <div className="text-6xl text-center">Increment</div>

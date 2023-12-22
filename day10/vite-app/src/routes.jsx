@@ -8,27 +8,9 @@ import About from "./pages/About"
 import Login from "./pages/Login"
 import AppLayout from "./layout/appLayout"
 import PlainLayout from "./layout/PlainLayout"
-import AdminLayout from "./layout/AdminLayout"
 import Dashboard from "./admin/Dashboard"
 import AdminUser from "./admin/AdminUser"
 import AdminBooks from "./admin/AdminBooks"
-
-// const RouteReactBasic = () => {
-//   return (
-//     <BrowserRouter>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" index element={<Home />} />
-//         <Route path="/todo" element={<Todo />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/books" element={<Books />} />
-//         <Route path="/books/:id" element={<BooksDetail />} />
-//         <Route path="*" element={<NotFound />} />
-//         <Route path="404" element={<NotFound />} />
-//       </Routes>
-//     </BrowserRouter>
-//   )
-// }
 
 const router = createBrowserRouter([
   {
@@ -62,5 +44,4 @@ const router = createBrowserRouter([
   },
 ])
 
-// export default RouteReactBasic
 export default router

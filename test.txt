@@ -1,14 +1,23 @@
-yang dikerjakan hari ini
-- vite
-- React
-- tailwind
-apa yang di kerjakan besok?
-- react
+Apa yang dikerjakan hari ini
+- context
+- konsep reducer
+- exercise reducer
+- konsep useState
+- javascript engine
+- looping dalam array
+- lvl styling
+- fitur es6
 
-apa kendala yang dihadapi?
+Apa yang di kerjakan besok?
+- masuk materi redux
+
+Apa kendala yang dihadapi?
+- masih mencoba memahami reducer
+
+Saran untuk materi hari ini
 - tidak ada
 
-saran improvement
+Saran improvement
 - tidak ada
 
 

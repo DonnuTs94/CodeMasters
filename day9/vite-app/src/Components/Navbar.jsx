@@ -16,8 +16,8 @@ const Navbar = () => {
             <Link to="/auth" className="text-white">
               Auth
             </Link>
-            <Link to="/contact" className="text-white">
-              Contact
+            <Link to="/todo" className="text-white">
+              Todo
             </Link>
           </div>
         </div>
