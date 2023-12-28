@@ -1,18 +1,13 @@
 Apa yang dikerjakan hari ini
-- context
-- konsep reducer
-- exercise reducer
-- konsep useState
-- javascript engine
-- looping dalam array
-- lvl styling
-- fitur es6
+- setup redux  and  redux toolkit
+- practie with redux and redux toolkit
 
 Apa yang di kerjakan besok?
-- masuk materi redux
+- fetching API yang akan di olah dengan redux
 
 Apa kendala yang dihadapi?
-- masih mencoba memahami reducer
+- masih sedikit bingung soal setup dan pemanggilan
+- masih harus contek2 dari code yg kemaren2
 
 Saran untuk materi hari ini
 - tidak ada

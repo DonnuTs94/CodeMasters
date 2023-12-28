@@ -2,6 +2,7 @@
 import Counter from "./Counter"
 import NewReduxCounter from "./NewReduxCounter"
 import Reducer from "./Reducer"
+import RtkCounter from "./RtkCounter"
 import State from "./State"
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <br />
       <h1>Ini Counter BTW</h1>
       {/* <Counter /> */}
-      <NewReduxCounter initialValue={10} />
+      {/* <NewReduxCounter initialValue={10} /> */}
+      <RtkCounter />
     </div>
   )
 }
