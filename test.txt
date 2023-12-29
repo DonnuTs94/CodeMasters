@@ -1,13 +1,14 @@
 Apa yang dikerjakan hari ini
-- setup redux  and  redux toolkit
-- practie with redux and redux toolkit
+- fetching dengan API
+- latiahan fetching"
+- fetching menggunakan SWR
+- mempelajari async try catch
 
 Apa yang di kerjakan besok?
-- fetching API yang akan di olah dengan redux
+- melanjutkan materi fetching
 
 Apa kendala yang dihadapi?
-- masih sedikit bingung soal setup dan pemanggilan
-- masih harus contek2 dari code yg kemaren2
+- tidak ada
 
 Saran untuk materi hari ini
 - tidak ada
