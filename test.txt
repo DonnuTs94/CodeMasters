@@ -5,7 +5,8 @@ Apa yang dikerjakan hari ini
 - mempelajari async try catch
 
 Apa yang di kerjakan besok?
-- melanjutkan materi fetching
+- review materi
+- prepare project
 
 Apa kendala yang dihadapi?
 - tidak ada
