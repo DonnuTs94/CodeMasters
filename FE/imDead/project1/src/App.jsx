@@ -1,14 +1,15 @@
-import { Box } from "@chakra-ui/react"
 import AllBooks from "./components/AllBooks"
 import BooksList from "./components/BooksList"
+import Navbar from "./components/Navbar"
+import HeroSection from "./components/HeroSection"
 
 const App = () => {
   return (
     <>
-      <Box>
-        <AllBooks />
-        <BooksList />
-      </Box>
+      <Navbar />
+      <HeroSection />
+      <AllBooks />
+      <BooksList />
     </>
   )
 }

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 .body {
   box-sizing: border-box;
+=======
+body {
+  margin: 0;
+  padding: 0;
+>>>>>>> a97cb50343a68c5a3d92db6242ff0ea55029fe43
 }

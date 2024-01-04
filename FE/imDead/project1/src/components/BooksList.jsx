@@ -27,7 +27,6 @@ const BooksList = () => {
       console.log(err)
     }
   }
-  console.log(BooksList)
 
   useEffect(() => {
     getBooksList()
@@ -35,8 +34,8 @@ const BooksList = () => {
 
   return (
     <>
-      <Center>
-        <Box mt="113px">
+      <Box mt="113px" marginX="100px" maxW="1241px" position="relative">
+        <Center>
           <SimpleGrid columns={4} gap="64px">
             {BooksList.map((book) => (
               <Card key={book.id} w="100%" maxW="265px">
@@ -73,8 +72,8 @@ const BooksList = () => {
               </Card>
             ))}
           </SimpleGrid>
-        </Box>
-      </Center>
+        </Center>
+      </Box>
     </>
   )
 }

@@ -30,9 +30,9 @@ const AllBooks = () => {
 
   return (
     <>
-      <Box>
+      <Box maxW="1241px" marginX="100px">
         <Center>
-          <SimpleGrid columns={2} gap="114px" mt="96px">
+          <SimpleGrid columns={2} gap="114px" mt="30px">
             {books.map((book) => (
               <Box key={book.id} w="100%" maxW="1080px">
                 <Flex gap={6}>
