@@ -1,15 +1,14 @@
 Apa yang dikerjakan hari ini
-- fetching dengan API
-- latiahan fetching"
-- fetching menggunakan SWR
-- mempelajari async try catch
+- membuat step2 dalam topik apapun dan speaking pada kelas bahasa inggris
+- dasar-dasar css
+- latihan dari materi dasar-dasar css
 
 Apa yang di kerjakan besok?
-- review materi
-- prepare project
+- melanjutkan penjelasan css
+- melanjutkan project
 
 Apa kendala yang dihadapi?
-- tidak ada
+- masih bingung untuk memahami struktur css
 
 Saran untuk materi hari ini
 - tidak ada
