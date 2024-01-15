@@ -1,20 +1,16 @@
 Apa yang dikerjakan hari ini
-- menjelaskan layouting
-- practice layouting
-- melanjutkan project
+- memepelajari teori JS(prototype, closure, HoF, asynchcronous dan event loop,)
+- quiz JS, React, Css
+
 
 Apa yang di kerjakan besok?
-- bahasa inggris
-- melanjutkan project
-- membahas grid dan flexbox
+- masuk materi Backend
 
 Apa kendala yang dihadapi?
-- masih bingung untuk dalam pengimplementasian css
+- logic fundamental
 
 Saran untuk materi hari ini
 - tidak ada
 
 Saran improvement
 - tidak ada
-
-

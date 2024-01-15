@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      .container {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 200px 1fr;
+        min-height: 100%;
+        row-gap: 30px;
+        column-gap: 15px;
+      }
+
+      .container .box:nth-child(1) {
+        background-color: blue;
+      }
+
+      .container .box:nth-child(2) {
+        background-color: deeppink;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 32px;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      .container .box:nth-child(3) {
+        background-color: pink;
+      }
+      .container .box:nth-child(4) {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box">
+        <h1>Mondrifans</h1>
+      </div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
