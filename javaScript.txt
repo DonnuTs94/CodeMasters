@@ -1,4 +1,0 @@
-Prinsip JS
-- Call Stack
-- Action context
-= lobal memory
