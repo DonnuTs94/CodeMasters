@@ -45,6 +45,12 @@ const authController = {
         })
       }
 
+      if (userLogin.is_blocked === true) {
+        return res.json({
+          message: "User is blocked",
+        })
+      }
+
       const passwordIsValid = bcrypt.compareSync(password, userLogin.password)
 
       if (!passwordIsValid) {
