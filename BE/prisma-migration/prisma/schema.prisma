@@ -85,9 +85,44 @@ model User {
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
 
-  token Token[]
+  token  Token[]
+  Role   Role?   @relation(fields: [roleId], references: [id])
+  roleId Int?
 
   @@map("users")
+}
+
+model Role {
+  id         Int      @id @default(autoincrement())
+  name       String   @unique
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  user       User[]
+  permission PermissionRole[]
+
+  @@map("roles")
+}
+
+model Permission {
+  id         Int      @id @default(autoincrement())
+  name       String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  permission PermissionRole[]
+
+  @@map("permissions")
+}
+
+model PermissionRole {
+  Role         Role        @relation(fields: [roleId], references: [id])
+  roleId       Int
+  Permission   Permission? @relation(fields: [permissionId], references: [id])
+  permissionId Int
+
+  @@id([roleId, permissionId])
+  @@map("permission_role")
 }
 
 model Token {

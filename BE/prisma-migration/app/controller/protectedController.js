@@ -6,6 +6,7 @@ const protectedControllers = {
     try {
       return res.json({
         message: "Protected say Hello",
+        data: req.user,
       })
     } catch (err) {
       return res.json({

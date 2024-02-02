@@ -16,6 +16,7 @@ const authController = {
           email: email.toLowerCase(),
           name: name,
           password: hashPassword,
+          roleId: 2,
         },
       })
 
